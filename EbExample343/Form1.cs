@@ -24,7 +24,7 @@ namespace EbExample343
         {
             foreach (User user in User.Select()) {
                 //Выводим колонку UserName
-                Console.WriteLine(user.UserLogin);
+                Console.WriteLine(user.UserName);
             }
         }
     }

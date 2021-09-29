@@ -13,6 +13,7 @@ namespace EbExample343.Classes
         public static DataTable Select(string sql) {
             //Генерация строки подключения к БД (описываем параметры)
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
+            //Сервер
             builder.Server = "192.168.201.12";
             builder.Port = 3306;
             builder.Database = "testuser_EFTest434";
